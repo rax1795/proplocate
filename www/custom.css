@@ -1,0 +1,58 @@
+.main-header .logo {
+  font-family: "Geneva", "Helvetica", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-sidebar, section {
+  font-family: "Geneva", "Helvetica", sans-serif;
+}
+
+h2 {
+  font-family: "Geneva", "Helvetica", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.irs-bar, .irs-bar-edge, .irs-single, .irs-grid-pol {
+  background: rgb(60, 141, 188);
+  border-color: rgb(60, 141, 188);
+}
+
+.irs-from, .irs-to {
+  background: rgb(60, 141, 188);
+}
+
+input[type='radio']:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #d1d3d1;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+
+input[type='radio']:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(60, 141, 188);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
